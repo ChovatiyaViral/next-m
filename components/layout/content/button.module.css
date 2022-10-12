@@ -1,0 +1,28 @@
+.button {
+  background: linear-gradient(90deg, #CFB77F 0%, #F5E3B8 100%);
+  border: 2px solid #937D5D;
+  border-radius: 0px;
+  font-family: 'Baskerville';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #715C3F;
+  width: 155.86px;
+  height: 37.93px;
+  letter-spacing: 0.02em;
+  margin-top: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+  .button {
+    font-size: 13px;
+    margin: 23.83px auto 0px;
+  }
+ }

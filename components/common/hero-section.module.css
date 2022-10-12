@@ -1,0 +1,95 @@
+.heroBg {
+  /* background-image: url('/assets/images/hero-BG.png'); */
+  background-image: url('/assets/images/landing_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 580px;
+  margin-bottom: 39px;
+  background-attachment: fixed;
+}
+
+.outerFrame {
+  background-image: url('/assets/images/hero-frame-one.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.middleFrame {
+  background-image: url('/assets/images/hero-frame-two.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 9px;
+}
+
+.innerFrame {
+  background-image: url('/assets/images/hero-frame-three.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.heroInfo {
+  padding-left: 90px;
+}
+
+.innerFrame img {
+  max-width: 405.86px !important;
+  max-height: 515.45px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .heroInfo {
+   padding-left: 35px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heroBg {
+    height: 658.71px;
+    margin-bottom: 0px;
+    background-position: 75%;
+    position: relative;
+  }
+
+  .mobileHeroBg {
+    padding: 12px 10px;
+    background: linear-gradient(180deg, #000000 22.78%, rgba(1, 1, 1, 0) 100%);
+  }
+
+  .outerFrame {
+    background-image: url('/assets/images/collection-mobile-frame.png');
+    max-width: 369.42px;
+    height: 636px;
+    margin: 0px auto;
+  }
+
+  .heroInfo {
+    padding: 29.03px 14px 0px;
+  }
+
+  .innerFrame,
+  .middleFrame {
+    background-image: none;
+  }
+
+  .heroImage img {
+    max-width: 158.48px !important;
+    max-height: 284px !important;
+  }
+
+  .heroInfo button {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%)
+  }
+}

@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Baskerville" !important;
+  /*a name to be used later*/
+  src: url("../public/fonts/baskerville/BASKRV_L.ttf");
+  /*URL to font*/
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #000;
+  line-height: 24px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Baskerville" !important;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.iconStyle {
+  font-size: 37px;
+  color: #363755;
+  margin: 0px 20px 0 0;
+  border: 1px solid #363755;
+  border-radius: 18px;
+  padding: 5px;
+}
+
+.scotchWhisky_Main_Wrapper {
+  width: 50%;
+}
+
+.react-multiple-carousel__arrow {
+  border: 1px solid #C6AC85 !important;
+  width: 27.78px;
+  height: 27.78px;
+  min-width: 27.78px !important;
+  min-height: 27.78px !important;
+  z-index: 99999 !important;
+  background: transparent !important;
+}
+
+.react-multiple-carousel__arrow::before {
+  font-size: 10px !important;
+  color: #CCB464 !important;
+}
+
+.react-multiple-carousel__arrow--left {
+  bottom: 18.56px;
+  left: 0px !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  bottom: 18.56px;
+  left: 42.36px !important;
+}
+
+.collection_slider .react-multiple-carousel__arrow--left {
+  left: 11vw !important;
+  bottom: 0px;
+}
+
+.collection_slider .react-multiple-carousel__arrow--right {
+  left: 14vw !important;
+  bottom: 0px;
+}
+
+@media only screen and (max-width: 1280px) {
+
+  .collection_slider .react-multiple-carousel__arrow--left {
+    left: 12vw !important;
+    bottom: 0px;
+  }
+
+  .collection_slider .react-multiple-carousel__arrow--right {
+    left: 16vw !important;
+    bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .scotchWhisky_Main_Wrapper {
+    width: 100%;
+  }
+
+  .react-multiple-carousel__arrow {
+    width: 36.22px;
+    height: 36.22px;
+    min-width: 36.22px !important;
+    min-height: 36.22px !important;
+  }
+
+  .react-multiple-carousel__arrow--left {
+    position: absolute;
+    left: 50% !important;
+    right: 50% !important;
+    transform: translateX(-50%);
+    margin-left: -30px;
+  }
+
+  .react-multiple-carousel__arrow--right {
+    position: absolute;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: 30px;
+    transform: translateX(-50%);
+  }
+
+  .collection_slider .react-multiple-carousel__arrow--left {
+    display: none;
+  }
+
+  .collection_slider .react-multiple-carousel__arrow--right {
+    display: none;
+  }
+}

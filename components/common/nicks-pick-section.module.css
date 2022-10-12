@@ -1,0 +1,157 @@
+.nickPickBG {
+    background-image: url("/assets/images/bg31-1.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 609px;
+}
+
+.nickPickBG h1 {
+    font-family: 'Baskerville';
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, #FFF5D5 10.7%, #FEE698 87.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.nickPickBG h6 {
+    font-family: 'Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 18px;
+    color: #C6AC85;
+    text-align: center;
+    margin: 36px 0px 67px;
+}
+
+.cardDiv {
+    width: 285px;
+    height: 279.66px;
+    padding: 22px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.contentBox {
+    background-image: url('/assets/images/nicks-pick-fram.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    width: 100%;
+    height: 99%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.blankImage {
+    width: 58.45px;
+    height: 58.45px;
+    object-fit: cover;
+    margin: 0px auto 38.55px;
+}
+
+.contentBox h1 {
+    margin-bottom: 25px;
+    font-family: 'Diamond Bridge DEMO';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, #FFF5D5 10.7%, #FEE698 87.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    max-width: 222px;
+    letter-spacing: -0.01em;
+}
+
+.nickPickBG hr {
+    border-color: #C6AC85;
+    max-width: 345px;
+    margin: 60px auto 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cardDiv {
+        width: 175.28px;
+        height: 171.56px;
+        padding: 9px;
+    }
+
+    .blankImage {
+        width: 58.45px;
+        height: 58.45px;
+        object-fit: cover;
+        margin: 0px auto 16.55px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center
+    }
+
+    .blankImage span {
+        max-width: 35.98px !important;
+        max-height: 35.98px !important;
+    }
+
+    .contentBox h1 {
+        font-size: 11px;
+        line-height: 17px;
+        letter-spacing: -0.01em;
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nickPickBG {
+        height: 100%;
+    }
+
+    .nickPickBG h1 {
+        font-size: 30px;
+        line-height: 31px;
+        letter-spacing: 0.01em;
+    }
+
+    .cardDiv {
+        width: 175.28px;
+        height: 171.56px;
+        padding: 12px;
+    }
+
+    .contentBox h1 {
+        font-size: 13px;
+        line-height: 17px;
+        letter-spacing: -0.01em;
+        margin-bottom: 24px;
+    }
+
+
+    .blankImage {
+        width: 58.45px;
+        height: 58.45px;
+        object-fit: cover;
+        margin: 0px auto 16.55px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center
+    }
+
+    .nickPickBG hr {
+        border-color: #C6AC85;
+        max-width: 320px;
+        margin: 40px auto 0px;
+    }
+}

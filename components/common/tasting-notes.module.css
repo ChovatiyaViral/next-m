@@ -1,0 +1,152 @@
+.testingNotesInnerDiv {
+  border-top: 1px solid #C6AC85;
+  border-bottom: 1px solid #C6AC85;
+  padding: 90px 0px 105px 40px;
+}
+
+.testingNotesInnerDiv h2 {
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 44px;
+  text-transform: uppercase;
+  background: linear-gradient(270deg, #FFF5D5 10.7%, #FEE698 87.26%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 17px;
+}
+
+.testingNotesInnerDiv p {
+  font-family: 'Baskerville';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: left;
+  margin-bottom: 31px;
+  text-align: justify;
+}
+
+.testingNotesInnerDiv p:last-child {
+  margin-bottom: 0px;
+}
+
+.testingNotesInnerDiv b {
+  font-family: 'Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 31px;
+  color: #FFE699;
+  text-align: left;
+}
+
+.testNotesImage {
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 50%;
+  height: 100%;
+  background-size: 50% 100%;
+  background-image: url("/assets/images/testnotes-img-one.png");
+  background-attachment: fixed;
+}
+
+.testingNotesBG {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("/assets/images/testnotes-img-two.png");
+}
+
+.testNotesBG {
+  height: 908px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .testingNotesInnerDiv {
+    border-top: 1px solid #C6AC85;
+    border-bottom: 1px solid #C6AC85;
+  }
+
+  .testingNotesInnerDiv p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    margin-bottom: 19px;
+  }
+
+  .testingNotesInnerDiv b {
+    font-size: 20px;
+    line-height: 22x;
+  }
+
+  .testNotesBG,
+  .testingNotesBG,
+  .testNotesImage {
+    height: 630px;
+  }
+
+  .testingNotesMc50{
+    padding-top: 54px !important;
+    padding-bottom: 62px !important;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .testNotesBG {
+    height: 1026px;
+  }
+
+  .testingNotesBG{
+    width: 100%;
+    height: auto;
+    margin: 0px auto 32px;
+    padding-top: 27px;
+    margin-top: 24px;
+  }
+
+  .testingNotesInnerDiv {
+    padding: 34px 0px 39px;
+    max-width: 330px;
+    margin: 0px auto 25px;
+  }
+
+  .testingNotesInnerDiv h2 {
+    font-size: 30px;
+    margin-bottom: 23px;
+  }
+  
+  .testingNotesInnerDiv p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .testingNotesInnerDiv b {
+    font-size: 20px;
+    line-height: 31px;
+  }
+
+  .testNotesImage {
+    width: 86%;
+    height: 371px;
+    border: 1px solid #FFE699;
+    margin: 0px auto;
+    background-position: center;
+    background-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  .testNotesImage {
+    width: 94%;
+  }
+
+  .testingNotesInnerDiv {
+    margin: 0px 15px 25px;
+  }
+}

@@ -1,0 +1,260 @@
+.footer_container_bg h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #868181;
+  margin-bottom: 25px;
+}
+
+.footer_container_bg p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #868181;
+}
+
+.footer_container_bg ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #868181;
+}
+
+.footer_container_bg form {
+  display: flex;
+  height: 40px;
+}
+
+.footer_container_bg input {
+  background-color: #3C3B3B;
+  padding: 10px 15px;
+  margin-right: 5px;
+  width: 230px;
+  font-size: 14px;
+}
+
+.footer_container_bg button {
+  background-color: #3C3B3B;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: rgba(256, 256, 256, 0.3);
+}
+
+.footer_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #868181;
+}
+
+.copyRightFooter {
+  background-color: #1C1D1A;
+  color: rgba(256, 256, 256, 0.3);
+  padding: 15px 0px;
+}
+
+.copyRightFooter h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+}
+
+.copyRightFooter ul li {
+  padding: 0px 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+}
+
+.cardIcons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 25px;
+}
+
+.cardOption {
+  width: 54px;
+  height: 30px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.socialMediaIcons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+
+.social_icon {
+  border: 2px solid #FFFFFF;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  opacity: 0.3;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer_container_bg button {
+    width: 71px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer_container_bg h1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #868181;
+    margin-bottom: 25px;
+  }
+
+  .footer_container_bg p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #868181;
+  }
+
+  .footer_container_bg ul li {
+    font-size: 12px;
+  }
+
+
+  .copyRightFooter ul li {
+    font-size: 12px;
+  }
+
+  .footer_description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .cardOption {
+    width: 50px;
+    height: 26px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_container_bg {
+    padding-top: 86px;
+  }
+
+  .footerInputSection {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer_container_bg p {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .footer_container_bg h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .footer_container_bg ul li {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .social_icon {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+  }
+
+  .footer_container_bg button {
+    width: 70px;
+    padding: 10px 0px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer_container_bg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer_container_bg div:nth-child(1) {
+    order: 2;
+  }
+
+  .footer_container_bg div:nth-child(2) {
+    order: 1;
+  }
+
+  .footer_container_bg div:nth-child(3) {
+    order: 3;
+  }
+
+  .socialMediaIcons {
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .social_icon {
+    width: inherit;
+    height: inherit;
+  }
+
+  .footer_description {
+    margin: 25px 0px 10px !important;
+    text-align: justify;
+    padding: 0px 20px;
+  }
+
+  .copyRightFooter {
+    text-align: center;
+    padding: 0px !important;
+  }
+
+  .copyRightFooter > div {
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+
+  .copyRightFooter ul {
+    margin-top: 10px;
+  }
+}

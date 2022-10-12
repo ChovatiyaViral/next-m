@@ -1,0 +1,172 @@
+.leftCol {
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: initial;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  border: 0.5px solid #E5E5E5;
+}
+
+.scotchWhisky {
+  background-image: url("/assets/images/macallan_30_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  width: 100%;
+  height: 100vh;
+  border: 0.5px solid #E5E5E5;
+}
+
+.scotchWhisky h2 {
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(270deg, #FFF5D5 10.7%, #FEE698 87.26%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 14px 8.25rem 0;
+  width: 40rem;
+}
+
+.scotchWhisky h3 {
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  font-size: 22px;
+  line-height: 18px;
+  color: #C6AC85;
+  margin: 1.265rem 8.25rem 0;
+  width: 24rem;
+}
+
+.scotchWhisky p {
+  font-family: 'Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  width: 40rem;
+  margin: 2.5rem 8.23rem 9.188rem;
+}
+
+.scotchWhisky p a {
+  width: 157px;
+  height: 38.21px;
+  background: linear-gradient(90deg, #CFB77F 0%, #F5E3B8 100%);
+  border: 2px solid #937D5D;
+  font-family: 'Baskerville';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #715C3F;
+  margin: 82px auto 0px;
+  border-radius: 13px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .scotchWhisky h2,
+  .scotchWhisky p {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .scotchWhisky h2,
+  .scotchWhisky p {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .leftCol {
+    height: 371.97px;
+    width: 333px;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-position: center center !important;
+    border: 1px solid #FFE699;
+    margin: 0px auto 86.03px;
+  }
+
+  .scotchWhisky_Main_Wrapper {
+    height: 742px !important;
+  }
+
+  .scotchWhisky {
+    width: 100% !important;
+    padding: 55px 36.21px 0px 35.79px !important;
+    background-position: left;
+    align-items: center;
+    height: 100% !important;
+    border: 0px;
+    justify-content: flex-start !important;
+  }
+
+  .imageDisplay {
+    width: 100% !important;
+  }
+
+  .scotchWhisky h2 {
+    width: 100% !important;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    margin: 0px;
+    text-align: left;
+  }
+
+  .scotchWhisky h3 {
+    width: 100% !important;
+    font-size: 19px;
+    line-height: 18px;
+    margin: 20px 0px 4px;
+    text-align: left;
+  }
+
+  .scotchWhisky p {
+    width: 100%;
+    margin: 24px 0;
+    font-size: 20px;
+    line-height: 37px;
+    text-align: left;
+    color: #fff !important;
+  }
+
+  .scotchWhisky p a {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+  }
+
+  .scotchWhiskyMainSection {
+    flex-wrap: wrap !important;
+    flex-direction: column-reverse !important;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  .leftCol {
+    width: 96%;
+  }
+}

@@ -1,0 +1,92 @@
+.banner_bg {
+  background-image: url("/assets/images/banner.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 588.21px;
+  margin-bottom: 25px;
+}
+
+.banner_content {
+  padding-left: 5.125rem;
+  background: linear-gradient(89.66deg, #10150e 2.46%, rgba(16, 21, 14, 0) 99.74%);
+}
+
+.banner_title {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 55px;
+  letter-spacing: 0.025em;
+  color: #fffcf3;
+}
+
+.banner_sub_title {
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 50px;
+  text-align: center;
+  color: #f5e2b7;
+  margin-top: 25px;
+}
+
+.banner_content a {
+  width: 158px;
+  height: 37.74px;
+  background: linear-gradient(90deg, #cfb77f 0%, #f5e3b8 100%);
+  border: 2px solid #937d5d;
+  font-family: "Baskerville";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #715c3f;
+  border-radius: 13px;
+  margin-top: 4.125rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner_content {
+    padding-left: 35px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner_content {
+    align-items: center;
+    height: 584px;
+    justify-content: space-between;
+    padding: 62px 0px 37.29px;
+    background: linear-gradient(169.24deg, #10150e 4.93%, rgba(16, 21, 14, 0) 54.34%);
+  }
+
+  .banner_bg {
+    height: 584px;
+    margin-bottom: 0px;
+    background-position: 75%;
+  }
+
+  .banner_title {
+    font-size: 42px;
+    line-height: 55px;
+    text-align: center;
+  }
+
+  .banner_sub_title {
+    font-size: 22px;
+    line-height: 18px;
+    margin-top: 10px;
+    letter-spacing: -0.01em;
+  }
+
+  .banner_content a {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,144 @@
+.termsAndConditionsBG {
+    background-image: url("/assets/images/condition-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.termsAndConditionsBG h1 {
+    font-family: 'Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFE699;
+    margin: 38px 0px 42px;
+}
+
+.termsAndConditionsBG p {
+    font-family: 'Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FAEFDF;
+}
+
+.termsAndConditionsBG span {
+    font-family: 'Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.termsAndConditionsBG hr {
+    border: 0.5px solid #9C9C98 !important;
+    width: 736px;
+}
+
+.termsAndConditionsBG form button {
+    width: 125.58px;
+    height: 42.17px;
+    border: 2px solid #D1B981;
+    border-radius: 40px;
+    font-family: 'Baskerville';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: capitalize;
+}
+
+.termsAndConditionsBG h6 {
+    font-family: 'Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.termsAndConditionsBG h6 i {
+    color: #E7C983;
+}
+
+.btnSubmit {
+    width: 211.04px;
+    height: 58px;
+    background: linear-gradient(90deg, #CFB77F 0%, #F5E3B8 100%);
+    border: 2px solid #937D5D;
+    font-family: 'Baskerville';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #6A440F;
+}
+
+.countrySelect {
+    /* width: 315.51px; */
+    height: 28px;
+    background: rgba(217, 217, 217, 0.3);
+    font-family: 'Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.09em;
+    text-transform: capitalize;
+    color: #D5D5D5;
+    padding: 2px 25px 2px 12.76px;
+    position: relative;
+    outline: none;
+    box-shadow: none;
+}
+
+.selectDiv {
+    position: relative;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.selectDiv::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: 10.14px;
+    border: 1.5px solid #FFE699;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.countrySelect:focus {
+    border-color: #FFE699;
+}
+
+select.countrySelect option {
+    color: #000000 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .termsAndConditionsBG hr {
+        width: 100%;
+    }
+
+    .termsAndConditionsBG {
+        background-size: cover;
+    }
+    
+}

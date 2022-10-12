@@ -1,0 +1,217 @@
+.modal {
+    background: rgba(256, 256, 256, 0.15);
+}
+
+.modalContent {
+    background: #030200;
+}
+
+.priceModal {
+    width: 900px;
+    height: 500px;
+    background-image: url("/assets/images/suggestion-50-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+
+.priceModal::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(97.76deg, rgba(3, 2, 0, 0) 30.13%, #030200 74.91%);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.priceFrame {
+    background-image: url('/assets/images/macllan-31-modal.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    width: 840px;
+    height: 440px;
+    text-align: center;
+    position: relative;
+    padding-top: 44px;
+    margin: 0px auto;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.priceFrame h1 {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #F5E2B7;
+    margin-bottom: 11.1px;
+}
+
+.priceFrame h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 36px;
+    letter-spacing: 0.025em;
+    color: #FFFCF3;
+    margin-bottom: 27.09px;
+}
+
+.priceFrame h6 {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 18px;
+    color: #C6AC85;
+}
+
+.priceFrame h3 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #F5E2B7;
+    margin-top: 45px;
+}
+
+.priceFrame p {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+}
+
+.addToCartBtn {
+    position: absolute;
+    width: 362px;
+    height: 37px;
+    background: linear-gradient(90deg, #CFB77F 0%, #F5E3B8 100%);
+    border: 2px solid #937D5D;
+    font-family: 'Baskerville';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #715C3F;
+    margin-top: 62.5px;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .priceModal {
+        width: 764px;
+        height: 438px;
+    }
+
+    .priceFrame {
+        width: 712px;
+        height: 378px;
+        padding-top: 15px;
+        background-size: contain
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .modalContent {
+        width: 95%;
+        border-radius: 5px;
+    }
+
+    .priceModal {
+        width: 100%;
+        height: 100%;
+    }
+
+    .priceFrame {
+        width: 100%;
+        height: 100%;
+        background-image: none !important;
+        padding-top: 20px;
+    }
+
+    .addToCartBtn {
+        position: relative;
+    }
+
+    .closeIcon {
+        top: -10px;
+        right: -10px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .priceFrame h1 {
+        font-family: 'Times New Roman';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        color: #F5E2B7;
+        margin-bottom: 8.1px;
+    }
+
+    .priceFrame h2 {
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 36px;
+        letter-spacing: 0.025em;
+        color: #FFFCF3;
+        margin-bottom: 20.09px;
+    }
+
+    .priceFrame h6 {
+        font-family: 'Times New Roman';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #C6AC85;
+    }
+
+    .priceFrame h3 {
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 0.025em;
+        color: #F5E2B7;
+        margin-top: 35px;
+    }
+
+    .priceFrame p {
+        font-family: 'Times New Roman';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.025em;
+        color: #FFFFFF;
+    }
+
+    .addToCartBtn {
+        margin-top: 50.5px;
+    }
+}

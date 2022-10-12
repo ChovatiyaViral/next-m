@@ -1,0 +1,134 @@
+.expertNotesBG {
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    height: 998px;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.expertNotesContent {
+    display: block;
+    width: 650px;
+    padding: 50px;
+    background: rgba(255, 236, 175, 0.07);
+    border-radius: 13px;
+}
+
+.expertNotesContent h1 {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, #FFF5D5 10.7%, #FEE698 87.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 15px;
+}
+
+.expertNotesContent p {
+    font-family: 'Baskerville';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #F5E2B7;
+    /* margin-bottom: 48px; */
+}
+
+.expertNotesAddToCartBtn {
+    background: linear-gradient(90deg, #CFB77F 0%, #F5E3B8 100%);
+    border: 2px solid #937D5D;
+    font-family: 'Baskerville';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #715C3F;
+    padding: 15.2px 49.2px;
+    width: 159px;
+    height: 38.7px;
+    display: flex;
+    letter-spacing: 0.03em;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border-radius: 13px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .expertNotesContent {
+        display: block;
+        width: 565px;
+        padding: 52px 56px 55px 46px;
+        background: rgba(255, 236, 175, 0.07);
+    }
+
+    .expertNotesBG {
+        height: 709px;
+    }
+
+    .expertNotesContent h1 {
+        font-size: 35px;
+        margin-bottom: 17px;
+    }
+
+    .expertNotesContent p {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        margin-bottom: 21px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .expertNotesBG {
+        height: 907px;
+        align-items: flex-start;
+        background-position: center 75%;
+    }
+
+    .expertNotesBGMobile {
+        background-image: url("/assets/images/expert-mobile-bg.png") !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        height: 907px;
+    }
+
+    .expertNotesTheOctaveBGMobile {
+        background-image: url("/assets/images/mobile-expert-note.png") !important;
+    }
+
+    .expertNotesContent {
+        display: block;
+        width: auto;
+        padding: 20px 23px 26px 23px;
+        margin: 54px 27px 0px;
+    }
+
+
+    .expertNotesContent h1 {
+        font-size: 21px;
+        margin-bottom: 24px;
+        line-height: 28px;
+    }
+
+    .expertNotesContent p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 389px) {
+    .expertNotesContent {
+        margin: 54px 5px 0px;
+    }
+}

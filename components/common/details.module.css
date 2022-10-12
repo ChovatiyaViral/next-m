@@ -1,0 +1,304 @@
+.banner_bg {
+  background-image: url("/assets/images/banner.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: calc((825 / 1700) * 100vw);
+}
+
+.banner_content {
+  position: relative;
+  padding: 0 10vh;
+}
+
+/* .banner_content h2 {
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+  color: #F5E2B7;
+} */
+
+.banner_content i {
+  color: #f5e2b7;
+  font-family: "Times New Roman";
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.banner_content p {
+  font-family: "Baskerville";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  margin-top: 20px;
+  margin-top: 24px;
+  width: 503px;
+}
+
+.banner_buy_btn {
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(90deg, #cfb77f 0%, #f5e3b8 100%);
+  border: 2px solid #937d5d;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 38px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  color: #715c3f;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.knowPriceButton {
+  background: linear-gradient(90deg, #CFB77F 0%, #F5E3B8 100%);
+  border: 2px solid #937D5D;
+  width: 158px;
+  height: 37.74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Baskerville';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #715C3F;
+  margin-top: 30px;
+}
+
+.knowPriceTransButton {
+  font-size: 19px;
+  letter-spacing: 0.11em;
+  background: linear-gradient(96.24deg, #D1BA82 22%, #F5E2B7 74.97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.banner_content h3 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 55px;
+  letter-spacing: 0.025em;
+  color: #fffcf3;
+  margin-top: 15px;
+}
+
+.banner_content h1 {
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+  color: #f5e2b7;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .banner_content h3 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .banner_content h3 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner_content h3 {
+    font-size: 40px;
+    max-width: 400px;
+  }
+
+  .banner_content h1 {
+    font-size: 22px;
+    line-height: 18px;
+  }
+
+  .banner_content {
+    padding: 0px 20px;
+  }
+
+  .banner_content p {
+    width: 400px;
+    margin-bottom: 90px;
+  }
+
+  .suggestionBottle31 {
+    position: absolute;
+    bottom: 5vh;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile_banner_bg {
+    background-image: url("/assets/images/mobile-banner.png") !important;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 584px;
+  }
+
+  .mobile_banner_50_bg {
+    background-image: url("/assets/images/mobile-banner-50.png") !important;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 390px;
+    height: 584px;
+  }
+
+  .banner_bg {
+    background-image: none;
+    height: 584px;
+  }
+
+  .banner_content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+    top: 112px;
+  }
+
+  .banner_content i {
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .banner_content h3 {
+    font-size: 42px;
+    line-height: 45px;
+    margin-top: 5px;
+    color: #dbc591;
+  }
+
+  .banner_content p,
+  .banner_content hr {
+    display: none;
+  }
+
+  .banner_content h3 {
+    font-size: 42px;
+    line-height: 42px;
+    margin-top: 5px;
+    color: #dbc591;
+    max-width: 241px;
+  }
+
+  .banner_content h1 {
+    font-size: 22px;
+    line-height: 18px;
+  }
+
+  .suggestionBottle {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 150px !important;
+  }
+
+  .suggestionBottle31 {
+    position: absolute;
+    bottom: 27vh;
+    left: 50%;
+    right: 50%;
+    width: 84.71px !important;
+    transform: translateX(-50%);
+  }
+
+  .knowPriceButton {
+    position: absolute;
+    left: 50%;
+    top: 350px;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .banner_content::after {
+    content: "";
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    width: 1px;
+    height: 70px;
+    background-color: #E3CE9D;
+    right: 50%;
+    transform: translateX(-50%);
+  }
+
+  .banner_content::before {
+    content: "";
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 41px;
+    background-color: #E3CE9D;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .suggestionBottle31 {
+    bottom: 32vh;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  .suggestionBottle31 {
+    bottom: 30vh;
+    width: 90px !important;
+  }
+
+  .suggestionBottle {
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 160px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .suggestionBottle31 {
+    bottom: 40vh;
+    width: 74px !important;
+  }
+}

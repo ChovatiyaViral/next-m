@@ -1,0 +1,185 @@
+.suggestion_Bg {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 584px;
+    background-attachment: fixed;
+}
+
+.suggestion_Frame {
+    height: 496px;
+    width: 100%;
+}
+
+.suggestionContent::before {
+    position: absolute;
+    content: "";
+    background-image: url('/assets/images/suggestion-frame.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.suggestionContent h1 {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 30px;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, #FFF5D5 10.7%, #FEE698 87.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    max-width: 280px;
+}
+
+.suggestionContent h6 {
+    margin-top: 19px;
+    font-family: 'Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 20px;
+    color: #C6AC85;
+    max-width: 248px;
+}
+
+.suggestionContent p {
+    font-family: 'Baskerville';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #F5E2B7;
+    max-width: 369px;
+    padding-left: 75px;
+}
+
+.suggestion_add_cart_btn {
+    width: 226px;
+    height: 55px;
+    background: linear-gradient(90deg, #CFB77F 0%, #F5E3B8 100%);
+    border: 2px solid #937D5D;
+    font-family: 'Baskerville';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #715C3F;
+    margin-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .suggestion_Bg {
+        height: calc((805/1728) * 100vw);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .suggestionContent p {
+        font-size: 17px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        max-width: 260px;
+        padding: 0px 23px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .suggestion_Bg {
+        height: 710px;
+        margin-bottom: 24px;
+    }
+
+    .suggestionContent {
+        max-width: 366px;
+        max-height: 683.74px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .suggestion_Frame {
+        height: 683.74px;
+        width: 100%;
+    }
+
+    .suggestionContent::before {
+        position: absolute;
+        content: "";
+        background-image: url('/assets/images/suggestion-mobile-frame.png');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: contain;
+        width: 366px;
+        height: 683.74px;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+    }
+
+
+    .suggestionContent h1 {
+        font-size: 30px;
+        max-width: 99px;
+    }
+
+    .suggestionContent h6 {
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 21px;
+        max-width: 128px;
+    }
+
+    .suggestionContent p {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        max-width: 369px;
+        padding: 0px 23px;
+    }
+
+    .mobileHeader {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 26px;
+    }
+
+}
+
+@media only screen and (max-width: 389px) {
+    .suggestionContent::before {
+        width: 94%;
+        height: 99%;
+        margin: 0px auto;
+    }
+
+    .suggestionContent h1 {
+        font-size: 26px;
+    }
+
+    .suggestionContent h6 {
+        font-size: 14px;
+        line-height: 21px;
+        max-width: 100px;
+    }
+
+    .suggestionContent p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
